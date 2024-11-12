@@ -17,7 +17,7 @@ body{
    
     grid-template-rows: 1fr 1fr ;
 }
-
+@media (min-width: 50em) {
     .container{
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
@@ -49,7 +49,7 @@ body{
 .container > *{
     border-radius: 6px;
     
-}
+} 
 
 
 .container .box2{
@@ -64,5 +64,38 @@ body{
     color: black;
     text-align: center;
     background: white;
+    
+    
+}}
+
+
+    
+
+    .container .box5{
+        background: white;
+      
+    }
+    .container .box1{
+        background: rgb(114,63,200);
+       
+      
+    }
+    .container .box4{
+        background: rgb(26,32,42);
+      
+    }
+
+.container > *{
+    border-radius: 6px;
+    
 }
+
+
+.container .box2{
+    background: #47556b;
+    
+}
+.container .box3{
+    background: white;
+   
 
