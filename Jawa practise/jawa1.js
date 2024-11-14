@@ -41,10 +41,80 @@
 //         i++;
 //     }
 
-    let companies = ["bloomberg" ,"Microsoft","Uber","Google ","IBM","Netflix"];
+    // let companies = ["bloomberg" ,"Microsoft","Uber","Google ","IBM","Netflix"];
 
-    companies.shift();
+    // companies.shift();
 
-    companies.splice(2,0,"ola ")
+    // companies.splice(2,0,"ola ")
 
-    companies.push("Amazon")
+    // companies.push("Amazon")
+
+    console.log("hello");
+    "hello".toUpperCase();
+
+
+[1,2,3].push(4);
+
+
+function myFunction(){
+    console.log("Gaurav is great");
+    console.log("superman is also great");
+    console.log("Gaurav is great");
+    console.log("superman is also great");
+    
+}
+
+
+// myFunction();
+// myFunction();
+
+
+// function sum(x ,y){
+//    console.log(x + y);
+   
+// }
+
+// sum(5 ,8)
+
+// // sum function
+// function mul(x ,y){
+//     console.log(x*y);
+    
+// }
+
+// mul(5,8)
+
+function countVowels(str) {
+    let count = 0;
+    for (const char of str){
+    if (char === "a" || char === "e"|| char === "i"||char==="o" || char === "u"){
+
+    
+        count++
+   }
+    }
+        console.log(count);
+        
+}
+
+
+let num = [ 11,22,33,44 ,55,66];
+
+num.forEach((num) =>{
+    console.log(num*num);
+    
+});
+
+let newArr = num.filter((val) =>{
+    return val >= 55 ;   
+})
+
+console.log(newArr);
+
+let marks = [99,56,84,86,79,90,96,85]
+
+let passing = marks.filter((val) =>{
+            return val >= 85 ;
+})
+
+console.log(passing)
