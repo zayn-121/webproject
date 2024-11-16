@@ -1,3 +1,102 @@
+
+// let btn1 = document.querySelector("#btn1")
+
+// btn1.onclick = () =>
+// { console.log("btn was clicked");
+//     let a = 1 ;
+//       a++ ;
+//     console.log(a);
+    
+// }
+
+// let btn2= document.querySelector("#newbtn");
+
+// let currMode = "light" ;
+
+// btn2.addEventListener( "click" , () => 
+// {
+//     if( currMode === "light")
+//         { currMode = "dark";
+//             document.querySelector("body").style.background = "Black";
+//         }
+        
+
+   
+//    else  { currMode = "light";
+//     document.querySelector("body").style.background = "white";
+// }})
+
+
+
+
+
+
+let btn = document.querySelector(".btn");
+let currentmode = "light" ;
+
+btn.addEventListener("click", () => {
+    if(currentmode === "light"
+    ){
+        currentmode = "Dark"
+        document.querySelector("body").style.background = "black";
+    }
+    else {
+        currentmode = "light";
+        document.querySelector("body").style.background = "white"
+
+    }
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// btn2.addEventListener("click", () => {
+//     document.body.style.background = "black";
+    
+// });
+// btn2.addEventListener("dblclick", () => {
+//     document.body.style.background = "white";
+    
+// });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // let marks = [98 ,12 ,22,33,44] ;
 // console.log(marks);
 

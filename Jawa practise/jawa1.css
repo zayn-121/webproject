@@ -45,3 +45,12 @@ body{
     overflow: hidden;
     margin-top: 20px;
 }
+#newbtn{
+    margin: 300px 200px;
+    background: black;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 50px;
+    border: 5px solid;
+    border-image: linear-gradient(to right ,red ,blue)1;
+}
