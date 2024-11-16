@@ -7,6 +7,8 @@ body{
     align-items: center;
     
     flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+   
 }
 .you{margin: 30px 0;
 
@@ -23,6 +25,7 @@ body{
     display: grid;
     grid-template-rows: 30px 0fr;
     transition: 1s all ease;
+    font-stretch: ultra-expanded; 
 }
 .box2{
     overflow: hidden;

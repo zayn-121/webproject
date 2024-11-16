@@ -1,3 +1,9 @@
-document.body.style.background = ""
+let newBtn = document.createElement("button");
+    newBtn.innerText = "Click me";
 
-console.log(document.body);
+
+
+newBtn.style.color ="white";
+newBtn.style.background = "red";
+
+document.querySelector("div").prepend(newBtn);
