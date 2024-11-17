@@ -6,6 +6,13 @@ Welcome to the **Short Ways to Achieve Amazing HTML & CSS** project! This projec
 
 The goal is to demonstrate how you can achieve complex layouts and styling with less code, saving time and improving productivity without compromising quality.
 
+
+##  What to do 
+
+- **Edit Any file as you wish without distubing the content.**
+- **Add what you like and want to show.**
+- **Learn new things that make html css jawa easy and show them in this repository**
+
 ## Features
 
 - **Efficient HTML Structure:** Learn to create clean, semantic, and simple HTML layouts.
@@ -19,3 +26,4 @@ The goal is to demonstrate how you can achieve complex layouts and styling with 
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/yourusername/short-ways-html-css.git
+
