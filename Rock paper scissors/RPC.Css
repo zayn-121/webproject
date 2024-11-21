@@ -1,0 +1,83 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    
+}
+h1{
+    background: rgb(2, 2, 43);
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+    
+}
+
+.choices{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   padding-top: 70px;
+   padding-left: 200px;
+  
+    
+}
+.choices .choice{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+
+    
+}
+.choices .choice img{
+    width: 300px;
+}
+.score-board{
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 100px;
+    font-size: 30px;
+    font-weight: 600;
+    transition: 1s all linear;
+    text-align: center;
+}
+.choices .choice:hover{
+    scale: 1.1  ;
+    cursor: pointer;
+    border: 5px solid rgb(6, 4, 7);
+    transition: .17s all linear;
+}
+.message{
+    margin-top: 40px;
+    display: grid;
+    place-content: center;
+    width: 100%;
+
+}
+.message button{
+    padding: 20px 50px 20px 50px ;
+    font-size:30px ;
+    background: black;
+    color: whitesmoke;
+    border-radius: 10px;
+   
+   
+}
+
+
+.result{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background: black
+    ;
+    color:white;
+    font-size: 20px;
+    margin-top: 30px;
+}
