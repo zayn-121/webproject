@@ -1,28 +1,12 @@
-//Hi I am jawa script
-var myName = "Gaurav";
+//chapter 2 
+//problem 2
+// let age = 33  ;
+// if(age>10 && age<18){
+//   console.log("your age lies btw 10 and 20")
+// }else {
+//   console.log("your age does not lies btw 10 and 20")
+// }
 
-console.log( myName );
-
-var a;
-var b = 2;
-
-let myDog = {
- name : "ramu",
- age : 17,
- work : "gamer" ,
-
-}
-
-myDog.name = "Happy camper"
-
-console.log(myDog)
-
-var myArry = []
-
-var i = 1 ;
-while( i <= 5  ){
-    myArry.push(i);
-    i++
-}
-
-console.log(myArry)
+let age = 17
+let a = age>18? "you can drive" : "you cannot drive"
+console.log(a)
