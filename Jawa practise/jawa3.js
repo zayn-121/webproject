@@ -5,6 +5,8 @@
 //   i++;
 // }
 
+// const { arrayBuffer } = require("stream/consumers")
+
 // function average(x,y){
 //   console.log("done")
 //   return Math. round(x+y)/2
@@ -50,12 +52,47 @@
 // let friend2 =           "          meena                    "
 // console.log(friend2.trim())
 
-let game = "russulmainiya"
-let i = 0;
-const str = () => {
-  while(i<game.length)
-    {  console.log(game[i])
-       i++
-    }
-}
-str()
+// let game = "Russulmainiya"
+// let i = 0;
+// const str = () => {
+//   while(i<game.length)
+//     {  console.log(game[i])
+//        i++
+//     }
+// }
+// str()
+// console.log(game.toLowerCase())
+// let str2 = " please give 10000 rupees"
+// let amount = str2.slice(12)
+// console.log(amount)
+
+// let friend = "deepika"
+// friend[4] = "a"
+// friend[6] = " "
+// console.log(friend)
+
+// let gac = [1,2,3,4,5,6,7,8,9,null]
+
+// gac.forEach((element) =>{
+//   console.log(element*element)
+// })
+// let name = "hardik"
+// arr = Array.from(name)
+// console.log(arr)
+
+//for of loop
+
+//chapeter 5 pratise se
+//question 1
+// let array = [1,1,2,3,4,4,4,4,4,5,5,54,]
+// array.push(23)
+// console.log(array)
+//question 2 
+let number = 23;
+let a = 23;
+do{
+  console.log("enter a number")
+}while(a!= 23){
+  console.log("you have entered a correct no.")
+  
+      }
