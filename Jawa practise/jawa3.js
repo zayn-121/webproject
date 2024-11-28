@@ -96,3 +96,16 @@ do{
   console.log("you have entered a correct no.")
   
       }
+
+      alert("Enter the value of a ")
+let a = prompt("Enter a Here")
+let b = Number.parseInt(a)
+let write = confirm("Do you want to wrtie it on the page")
+if(write){
+   document.write(b)
+  
+}
+else{
+  alert("let me please write it on the page")
+}
+                  
