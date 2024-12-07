@@ -1,6 +1,5 @@
-let a = document.getElementsByClassName('first')[0]
+let a = document.querySelector(".btn")
 
-let rom = document.createElement('div');
-rom.innerHTML = '<h1>my name is pokemon</h1>'
-
-a.appendChild(rom)
+a.addEventListener('click', function(){
+alert("button was clicked")
+})
