@@ -9,4 +9,5 @@ document.querySelector(".hours1").innerHTML = h;
 document.querySelector(".Minutes1").innerHTML = m;
 document.querySelector(".seconds1").innerHTML = s;
 document.querySelector(".dates1").innerHTML = d;
-
+}
+time()
