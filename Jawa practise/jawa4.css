@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.bulb{
+height: 40vh;
+width: 40vh;
+color: gold;
+}
+.bulboff{
+height: 40vh;
+width: 40vh;
+}
