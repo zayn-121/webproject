@@ -1,6 +1,8 @@
 *{
     margin: 0;
-    padding: 0;}
+    padding: 0;
+    box-sizing: border-box;
+}
 
  body{
         height: 100vh;
@@ -8,36 +10,93 @@
         justify-content: center;
         align-items: center;
         flex-direction: column  ;
+        font-family: sans-serif;
     }
 
 .bulb{
     height: 40vh;
     width: 40vh;
     border-radius: 50%;
-    
+    border: 1px solid rgb(224, 224, 224);
+    /* z-index: -1; */
+    position: relative;
+    top: -10.9vh;
 }
-button{
-    height: 7vh;
-    width: 20vh;
-    border: 3px solid grey;
-    border-radius: 5px;
-    background: rgb(218, 76, 180);
-    cursor: pointer;
-    color: aliceblue;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    
-margin-top: 40px;
-
-
+.on{
+    background-color: gold;
+    transition: .6s ease-in-out;
 
 }
+
 .holder{
-    height: 20vh;
+    height: 18vh;
     width: 15vh;
     background: black;
-    z-index: -1;
     margin-top: -80px;
+}
+.holder span{
+    display: block;
+    height: 5px;
+    width: 100%;
+    background: white;
+    margin: 6vh 0;
+}
+.input{
+    visibility: hidden;
+    
+}
+
+.label{
+    display: block;
+    /* position: absolute; */
+    width: 80px;
+    height: 40px;
+    background: black;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+}
+.label > div{
+    font-size: 14px;
+    text-align: center;
+    line-height: 35px;
+    letter-spacing: 2px;
+    color: white;
+}
+.circle{
+    width: 36px;
+    height: 36px;
+    background: #F70000;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    animation: toggleOff .2s linear  forwards;
+}
+.input:checked + .label{
+    background: black;
+}
+.input:checked + .label .circle{
+    animation: toggleOn .2s linear  forwards;
+    background: #4BB543;
+}
+@keyframes toggleOn {
+    0%{
+        transform: translateX(0px);
+
+    }
+    100%{
+        transform: translateX(40px);
+    }
+}
+@keyframes toggleOff {
+    0%{
+        transform: translateX(40px);
+
+    }
+    100%{
+        transform: translateX(0px);
+    }
 }
 
 
